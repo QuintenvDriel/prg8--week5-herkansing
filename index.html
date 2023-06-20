@@ -1,0 +1,24 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+
+    <script src="knear.js"></script>
+    <script src="https://unpkg.com/@tensorflow-models/handpose@0.0.6/dist/handpose.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>HANDPOSE API met landmarks</h1>
+<div id="container">
+    <canvas id="output" ></canvas>
+    <video id="video" playsinline ></video>
+</div>
+<h2>Landmarks array</h2>
+
+<button id="a">Dit is een Duim </button>
+<br>
+<button id="b">Dit is een high-five</button>
+<div id="array">Letter</div>
+</body>
